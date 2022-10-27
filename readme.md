@@ -2,7 +2,7 @@
 
 The Osprey is a column staggered 40% wireless ergonomic keyboard. PCB and 3D-printable case are both open source (Cern OHL Permissive), and so is the software (MIT) as it is designed to run the [ZMK firmware](https://github.com/zmkfirmware/zmk).
 
-[![Entire board](img/photo_full_s.jpg)](img/photo_full.jpg)  [![Entire PCB](img/photo_pcb_s.jpg)](img/photo_pcb.jpg)  [![PCB detail](img/photo_detail_s.jpg)](img/photo_detail.jpg)
+[![Entire board](img/photo_full_s.jpg)](img/photo_full.jpg)  [![Entire PCB](img/photo_pcb_s.jpg)](img/photo_pcb.jpg)  [![PCB detail](img/photo_detail_s.jpg)](img/photo_detail.jpg) [![Plate with caps and PCB](img/photo_plate_s.jpg)](img/photo_plate.jpg)
 
 The board was designed to be an elegant and sleek unibody keyboard, without sacrificing typing comfort or portability. While the enclosure has raised edges to hide the keyswitches for a more refined look, it is still as slim as possible with Choc v1 switches, leading to a total thickness of about 16 mm from bottom to keycap top, if used with MBK keycaps.
 
