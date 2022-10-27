@@ -1,6 +1,6 @@
 # Osprey
 
-The Osprey is a column staggered 40% wireless ergonomic keyboard. PCB and 3D-printable case are both open source (Cern OHL Permissive), and so is the software (MIT) as it is designed to run the [ZMK firmware](https://github.com/zmkfirmware/zmk).
+The Osprey is a column staggered 40% wireless ergonomic keyboard. PCB and 3D-printable case are both open source (CERN OHL Permissive), and so is the software (MIT) as it is designed to run the [ZMK firmware](https://github.com/zmkfirmware/zmk).
 
 [![Entire board](img/photo_full_s.jpg)](img/photo_full.jpg)  [![Entire PCB](img/photo_pcb_s.jpg)](img/photo_pcb.jpg)  [![PCB detail](img/photo_detail_s.jpg)](img/photo_detail.jpg) [![Plate with caps and PCB](img/photo_plate_s.jpg)](img/photo_plate.jpg)
 
@@ -9,7 +9,7 @@ The board was designed to be an elegant and sleek unibody keyboard, without sacr
 The PCB is "floating" inside the case and the switches are held in-place by a 1.2 mm FR4 plate, which is sandwiched between case top and bottom half.
 
 ## Hardware
-The Rev A is the first board in the Osprey family, using an nRF52840 chip, running in full DC-DC mode for highest possible battery life. A Texas Instruments BQ24075 battery management chip ensures reliable charging, while a MAX17048 fuel gauge allows for accurate battery status measurments which are communicated to your PC via Bluetooth.
+The Rev A is the first board in the Osprey family, using an nRF52840 chip, running in full DC-DC mode for highest possible battery life. A Texas Instruments BQ24075 battery management chip ensures reliable charging, while a MAX17048 fuel gauge allows for accurate battery status measurements which are communicated to your PC via Bluetooth.
 
 The PCB is designed for Kailh Choc v1, which can be hot-swapped, and does not need any stabilizers - the largest key is 1.5u for the thumbs.
 
