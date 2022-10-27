@@ -1,0 +1,6 @@
+[submodule "marbastlib"]
+	path = marbastlib
+	url = https://github.com/ebastler/marbastlib
+[submodule "logo-branding.pretty"]
+	path = logo-branding.pretty
+	url = https://github.com/ebastler/logo-branding.pretty
