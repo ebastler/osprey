@@ -37,11 +37,11 @@ It was prototyped at PCBway and turned out great. Other manufacturers should be 
 [![Top side](img/render_osprey_plate_top_s.png)](img/render_osprey_plate_top.png)  [![Bottom side](img/render_osprey_plate_bottom_s.png)](img/render_osprey_plate_bottom.png)
 
 ## Enclosure
-I have attached step and stl files of the latest enclosure prototype - the case is still heavily work in progress, and the attached case revision is not yet tested. They are for now included only as a reference.
-- [Top enclosure, .step](osprey_enclosure/osprey_enclosure_top.step)
-- [Bottom enclosure, .step](osprey_enclosure/osprey_enclosure_bot.step)
-- [Top enclosure, .3mf](osprey_enclosure/osprey_enclosure_top.3mf)
-- [Bottom enclosure, .3mf](osprey_enclosure/osprey_enclosure_bot.3mf)
+I have attached step and 3mf files of the latest enclosure prototype - the case is still heavily work in progress, and the attached case revision is not yet tested. They are for now included only as a reference.
+- [Top enclosure, step](osprey_enclosure/osprey_enclosure_top.step)
+- [Bottom enclosure, step](osprey_enclosure/osprey_enclosure_bot.step)
+- [Top enclosure, 3mf](osprey_enclosure/osprey_enclosure_top.3mf)
+- [Bottom enclosure, 3mf](osprey_enclosure/osprey_enclosure_bot.3mf)
 
 [![Front side](img/render_osprey_case1_s.png)](img/render_osprey_case1.png)  [![Rear side](img/render_osprey_case2_s.png)](img/render_osprey_case2.png)
 
