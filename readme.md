@@ -19,7 +19,7 @@ You will also need a 502030 battery (20 x 30 x 5 mm), which usually come between
 
 It was prototyped at PCBway and turned out great. Other manufacturers should be able to make sense of the files I attached and solder these PCBs, but it is untested so order there at your own risk. 
 
-Files needed for ordering the PCB:
+### Files needed for ordering the PCB:
 
 - Order in 1.6mm FR4, ENIG finish
 - [Gerber Files](osprey_rev_a/fab/osprey_rev_a-GERBER.zip)
@@ -29,7 +29,7 @@ Files needed for ordering the PCB:
 
 [![Top side](img/render_osprey_rev_a_top_s.png)](img/render_osprey_rev_a_top.png)  [![Bottom side](img/render_osprey_rev_a_bottom_s.png)](img/render_osprey_rev_a_bottom.png)
 
-Files needed for ordering the plate:
+### Files needed for ordering the plate:
 
 - Order in 1.2mm FR4, finish does not matter
 - [Gerber Files](osprey_plate/fab/osprey_plate.zip)
