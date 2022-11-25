@@ -37,7 +37,7 @@ It was prototyped at PCBway and turned out great. Other manufacturers should be 
 [![Top side](img/render_osprey_plate_top_s.png)](img/render_osprey_plate_top.png)  [![Bottom side](img/render_osprey_plate_bottom_s.png)](img/render_osprey_plate_bottom.png)
 
 ## Enclosure
-I have attached step and 3mf files of the latest enclosure prototype - the case is still heavily work in progress, and the attached case revision is not yet tested. They are for now included only as a reference.
+I have attached step and 3mf files of the latest enclosure prototype - the case is still work in progress, as it lacks capability of adding thumbstick or touchpad. It is, however, tested and works fine for regular keyboard use. The enclosure is designed for [Ruthex M2 threaded inserts](https://www.ruthex.de/products/ruthex-gewindeeinsatz-m2-70-stuck-rx-m2x4-messing-gewindebuchsen) and M2x8 cylindrical head screws with flat TORX head (ISO 14580) - 9 piece each. 7 3M rubber bumpons with 7.9 mm diameter are used as feet. Other inserts, screws and bumpons may work but are untested.
 - [Top enclosure, step](osprey_enclosure/osprey_enclosure_top.step)
 - [Bottom enclosure, step](osprey_enclosure/osprey_enclosure_bot.step)
 - [Top enclosure, 3mf](osprey_enclosure/osprey_enclosure_top.3mf)
@@ -50,3 +50,7 @@ I have attached step and 3mf files of the latest enclosure prototype - the case 
 As mentioned earlier, the board is designed to run the open source ZMK firmware. My current firmware config can be found in my [ZMK config](https://github.com/ebastler/zmk-config/tree/main/config/boards/arm/osprey) repository. Since the MAX17048 needs a not-yet-merged pull request (and some manual fixes applied to it) it points towards a custom branch on a ZMK fork, not towards the official repository. This board can not (yet) be built from ZMK main branch.
 
 I am using an Adafruit Bootloader, a readily compiled one can be downloaded from the [github actions in my fork of their repository](https://github.com/ebastler/Adafruit_nRF52_Bootloader/actions/runs/). This needs to be flashed with a J-Link, Black Magic Probe or modified STlink v2 using a TC2030 flashing header.
+
+## Thanks
+ - [PCBWay](https://www.pcbway.com/) for the top notch quality sponsored PCBs - couldn't have done it without you!
+ - My friend [propagandalf](https://github.com/propagandalf1) for the 3D printed cases - thank you very much!
