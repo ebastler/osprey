@@ -47,10 +47,10 @@ I have attached step and 3mf files of the latest enclosure prototype - the case 
 
 
 ## Software
-As mentioned earlier, the board is designed to run the open source ZMK firmware. My current firmware config can be found in my [ZMK config](https://github.com/ebastler/zmk-config/tree/main/config/boards/arm/osprey) repository. Since the MAX17048 needs a not-yet-merged pull request (and some manual fixes applied to it) it points towards a custom branch on a ZMK fork, not towards the official repository. This board can not (yet) be built from ZMK main branch.
+As mentioned earlier, the board is designed to run the open source ZMK firmware. My current firmware config can be found in my [ZMK config](https://github.com/ebastler/zmk-config/tree/osprey-a/config/boards/arm/osprey) repository. Since the MAX17048 needs a not-yet-merged pull request (and some manual fixes applied to it) it points towards a custom branch on a ZMK fork, not towards the official repository. This board can not (yet) be built from ZMK main branch. The current version is broken and softbricks the board!
 
-I am using an Adafruit Bootloader, a readily compiled one can be downloaded from the [github actions in my fork of their repository](https://github.com/ebastler/Adafruit_nRF52_Bootloader/actions/runs/). This needs to be flashed with a J-Link, Black Magic Probe or modified STlink v2 using a TC2030 flashing header.
+I am using an Adafruit Bootloader, a readily compiled one can be downloaded from the [github actions in my fork of their repository](https://github.com/ebastler/Adafruit_nRF52_Bootloader/actions). This needs to be flashed with a J-Link, Black Magic Probe or modified STlink v2 using a TC2030 flashing header.
 
 ## Thanks
  - [PCBWay](https://www.pcbway.com/) for the top notch quality sponsored PCBs - couldn't have done it without you!
- - My friend [propagandalf](https://github.com/propagandalf1) for the 3D printed cases - thank you very much!
+ - [propagandalf](https://github.com/propagandalf1) for the 3D printed cases - thank you very much!
